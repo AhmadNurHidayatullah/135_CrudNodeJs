@@ -1,0 +1,105 @@
+
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Jarak bawah antara logo dan header */
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 50px;
+    border-radius: 100%;
+    padding: 10px;
+}
+
+/* Kontainer Signup */
+.signup-container {
+    background-color: var(--card-background);
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    width: 100%;
+    max-width: 450px;
+    animation: fadeIn 0.5s ease-out;
+}
+
+/* Animasi fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Header Signup */
+.signup-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.signup-header h1 {
+    color: var(--primary-color);
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+/* Tombol Signup */
+.btn-signup {
+    width: 100%;
+    padding: 14px;
+    background-color: var(--secondary-color);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.btn-signup:hover {
+    background-color: var(--hover-secondary-color);
+    transform: translateY(-2px);
+}
+
+.btn-signup:active {
+    transform: translateY(1px);
+}
+
+/* Footer Signup */
+.signup-footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9rem;
+    color: #6c757d;
+}
+
+
+
+.signup-footer a:hover {
+    text-decoration: underline;
+    color: var(--hover-secondary-color);
+}
+
+/* Responsif */
+@media (max-width: 480px) {
+    .signup-container {
+        width: 95%;
+        padding: 25px;
+    }
+
+    .signup-header h1 {
+        font-size: 1.8rem;
+    }
+}

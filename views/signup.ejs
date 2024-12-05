@@ -1,13 +1,23 @@
-<h1>Sign up</h1>
-<form action="/signup" method="POST">
-    <div class="mb-3">
-        <label for="username" class="form-label">Username</label>
-        <input type="text" class="form-control" id="username" name="username" required>
+<div class="login-container">
+    <div class="signup-container">
+        <!-- Tambahkan Logo -->
+        <div class="logo-container">
+            <img src="./images/kucing.jpeg" alt="Logo" class="logo"> <!-- Sesuaikan path logo -->
+        </div>
+        <div class="signup-header">
+            <h1>Sign Up</h1>
+        </div>
+        <form action="/signup" method="POST">
+            <div class="form-group">
+                <input type="text" class="form-control" id="username" name="username" required placeholder="Username">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" id="password" name="password" required placeholder="Password">
+            </div>
+            <button type="submit" class="btn-signup">Sign Up</button>
+        </form>
+        <div class="signup-footer">
+            <p>Already have an account? <a href="/login">Log in here</a>.</p>
+        </div>
     </div>
-    <div class="mb-3">
-        <label for="password" class="form-label">Password</label>
-        <input type="password" class="form-control" id="password" name="password" required>
-    </div>
-    <button type="submit" class="btn btn-primary">Login</button>
-</form>
-<p>Belum punya akun? <a href="/login">Daftar di sini</a>.</p>
+</div>

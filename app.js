@@ -16,6 +16,8 @@ const { isAuthenticated } = require('./middlewares/middleware.js');
 
 const db = require('./database/db')
 
+app.use(express.static('public'));
+
 app.use(expressLayout);
 
 app.use(express.json());

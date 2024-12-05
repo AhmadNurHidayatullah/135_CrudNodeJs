@@ -1,0 +1,57 @@
+/* Styling Container */
+.data {
+    margin: 20px auto;
+    max-width: 1200px;
+}
+
+/* Styling Card */
+.todo-card {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.todo-card:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+}
+
+/* Card Header and Text */
+.todo-card h5 {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.todo-card p {
+    font-size: 14px;
+    color: #6c757d;
+    margin-bottom: 20px;
+    word-break: break-word;
+}
+
+/* Button Styling */
+.todo-card .btn {
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+
+.todo-card .btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+}
+
+.todo-card .btn-danger {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+}
+
+/* Completed Task Style */
+.completed {
+    text-decoration: line-through;
+    color: #6c757d;
+}

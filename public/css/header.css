@@ -1,0 +1,81 @@
+
+
+/* Navbar */
+.navbar {
+  background-color: #2c3e50 !important; /* Warna latar belakang gelap */
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ecf0f1 !important; /* Warna teks terang */
+  transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+  color: #3498db !important; /* Warna hover biru */
+}
+
+/* Links dalam navbar */
+.navbar-nav .nav-link {
+  color: #bdc3c7 !important; /* Warna abu-abu terang */
+  font-size: 1rem;
+  padding: 8px 15px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+  border-radius: 5px; /* Sudut melengkung */
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fff !important; /* Teks putih saat hover */
+  background-color: #3498db !important; /* Biru terang saat hover */
+}
+
+.navbar-nav .nav-link.active {
+  color: #fff !important; /* Teks putih */
+  font-weight: bold;
+}
+
+.navbar-nav .nav-item .btn-link {
+  color: #df0202 !important; /* Teks putih */
+  font-weight: bold;
+  text-decoration: none; /* Menghapus garis bawah */
+}
+
+.navbar-nav .nav-item .btn-link:hover {
+  color: #ee0606 !important; /* Warna saat di-hover */
+}
+
+
+
+/* Tombol logout */
+.navbar-nav .btn-link {
+  color: #bdc3c7 !important;
+  font-size: 1rem;
+  background: none;
+  cursor: pointer;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.navbar-nav .btn-link:hover {
+  color: #fff !important;
+  background-color: #e74c3c !important; /* Warna merah hover */
+  padding: 8px 15px; /* Konsistensi padding */
+  border-radius: 5px;
+}
+
+/* Toggler button */
+.navbar-toggler {
+  border: none;
+  color: #ecf0f1;
+}
+
+/* Responsivitas */
+@media (max-width: 768px) {
+  .navbar-nav .nav-link {
+      text-align: center;
+      margin: 5px 0;
+  }
+}

@@ -1,0 +1,115 @@
+:root {
+    --primary-color: #4a4a4a;
+    --secondary-color: #007bff;
+    --background-color: #f4f4f8;
+    --card-background: #ffffff;
+    --border-color: #e0e0e0;
+    --hover-secondary-color: #0056b3;
+    --focus-box-shadow: rgba(0, 123, 255, 0.1);
+}
+
+/* Kontainer login */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh; /* Agar login container memenuhi layar */
+    background-color: #192e01; /* Latar belakang halus */
+}
+
+/* Kartu login */
+.login-card {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px;
+    width: 100%; /* Memastikan lebar responsif */
+}
+
+/* Logo */
+.logo {
+    width: 80px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+/* Judul */
+h1 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+    color: #c7d017;
+}
+
+/* Paragraf */
+p {
+    font-size: 0.9rem;
+    margin-bottom: 20px;
+    color: #111111;
+}
+
+/* Formulir */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Input */
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #c1be0a;
+    border-radius: 5px;
+    box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: border 0.3s, box-shadow 0.3s;
+}
+
+/* Efek fokus input */
+input:focus {
+    border-color: #c1be0a;
+    box-shadow: 0 0 8px rgba(78, 84, 200, 0.5);
+    outline: none;
+}
+
+/* Tombol */
+.btn {
+    padding: 12px 20px;
+    background-color: #f6f206; /* Warna dasar tombol */
+    color: #da0e0e; /* Warna teks */
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Efek bayangan */
+    width: 100%; /* Lebar penuh */
+}
+
+/* Efek hover tombol */
+.btn:hover {
+    background-color: #a1a00a; /* Warna lebih gelap saat hover */
+    transform: translateY(-2px); /* Tombol naik sedikit */
+}
+
+/* Efek saat tombol diklik */
+.btn:active {
+    background-color: #8d8a07; /* Warna lebih gelap */
+    transform: translateY(2px); /* Tombol turun sedikit */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Bayangan lebih kecil */
+}
+
+
+/* Link bantuan */
+.helper-text a {
+    color: #c1be0a;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.helper-text a:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,13 @@
+
+footer {
+    background-color: #333; /* Warna latar belakang gelap */
+    color: #cd0303; /* Teks berwarna putih */
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
